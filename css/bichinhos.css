@@ -7,6 +7,7 @@ body,
 html {
   height: 100%;
  font-family: 'Roboto Slab', serif;
+ color: rgba(0, 0, 0, 0.5);
 }
 a {
   text-decoration: none
@@ -218,6 +219,13 @@ footer {
   color: #fff;
   padding-top: 50px;
   padding-bottom: 50px
+}
+.facebook {
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.facebook p {
+  padding-bottom: 20px
 }
 @media only screen and (max-width: 480px) {
   .some-mobile {
