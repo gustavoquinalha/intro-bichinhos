@@ -5,15 +5,16 @@
   <meta charset="utf-8">
   <title>Bichinhos</title>
   <link rel="stylesheet" href="css/bichinhos.css">
+  <link rel="stylesheet" href="css/scroll-animate.min.css">
 </head>
 
 <body>
   <div class="menu bg-theme">
     <div class="menu-flex tamanho margin">
-      <div class="logo anima-from-top">
+      <div class="logo delay animate to-bottom">
         <img src="img/logo.svg" width="150" alt="">
       </div>
-      <div class="menu-itens anima-from-top some-mobile">
+      <div class="menu-itens some-mobile delay animate to-bottom">
         <ul>
           <li><a href="#" class="menu-link">Home</a></li>
           <li><a href="#" class="menu-link">Sobre</a></li>
@@ -28,15 +29,15 @@
 
       <div class="intro-flex">
         <div class="intro-way intro-left">
-          <div class="text-intro anima-from-left">
-            <h1 class="txt-intro-h1">O jeito mais fofinho<br />de judar os bichinhos</h1>
+          <div class="text-intro ">
+            <h1 class="txt-intro-h1 animate to-left delay">O jeito mais fofinho<br />de judar os bichinhos</h1>
             <div class="intro-btn">
-              <button type="button" name="button" class="btn-cadastro">CADASTRAR</button>
+              <button type="button" name="button" class="btn-cadastro animate to-top delay">CADASTRAR</button>
             </div>
           </div>
         </div>
         <div class="intro-way intro-right">
-          <div class="intro-img-devices anima-from-right">
+          <div class="intro-img-devices animate to-right">
             <img src="img/devices-01.svg" class="tamanho-devices" alt="">
           </div>
         </div>
@@ -48,18 +49,18 @@
   </div>
   <div class="fundo">
     <div class="tamanho margin">
-      <div class="intro-text">
+      <div class="intro-text delay animate grow">
         <h2 class="fw">Saiba como funciona o app bichinhos</h2>
         <small>Estamos quase prontos :)</small>
       </div>
 
       <div class="conteudo-full">
         <div class="conteudo conteudo-img">
-          <div class="">
+          <div class="delay animate grow">
             <img src="img/devices-01.svg" class="tamanho-img" alt="">
           </div>
         </div>
-        <div class="conteudo conteudo-texto ">
+        <div class="conteudo conteudo-texto delay animate to-right">
           <h3 class="color-theme conteudo-txt">Cadastre seu bichinhos</h3>
           <p>Cadastre todos seus bichinhos para mantêlos seguros, estando para adoção ou não.</p>
         </div>
@@ -68,11 +69,11 @@
       <div class="conteudo-full">
 
         <div class="conteudo conteudo-img inv2">
-          <div class="">
+          <div class="delay animate grow">
             <img src="img/petcode-01.svg" class="tamanho-img" alt="">
           </div>
         </div>
-        <div class="conteudo conteudo-texto text-right inv1">
+        <div class="conteudo conteudo-texto text-right inv1 delay animate to-left">
           <h3 class="color-theme conteudo-txt">Crie seu PET-CODE</h3>
           <p>Cadastre seus bichinhos no painel e gere seu PET-CODE, se acaso um dia seu bichinho resolva dar um role sem te avisar, quando alguém ler o código você será notificado.</p>
         </div>
@@ -80,11 +81,11 @@
 
       <div class="conteudo-full">
         <div class="conteudo conteudo-img">
-          <div class="">
+          <div class="delay animate grow">
             <img src="img/adote-01.svg" class="tamanho-img" alt="">
           </div>
         </div>
-        <div class="conteudo conteudo-texto">
+        <div class="conteudo conteudo-texto delay animate to-right">
           <h3 class="color-theme conteudo-txt">Encontre os bichinhos mais fofinhos para adoção</h3>
           <p>Cadastre seus bichinhos e tenha um maior controle sobre eles </p>
         </div>
@@ -94,23 +95,24 @@
 
     </div>
   </div>
-  <div class="facebook tamanho margin text-center">
+  <div class="facebook tamanho margin text-center delay animate to-bottom">
     <p>Conheça nossa página no facebook e<wbr />fique por dentro das novidades</p>
     <div class="fb-like" data-href="https://www.facebook.com/adotebichinhos" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
   </div>
   <footer>
-    <div class="rodape tamanho margin">
+    <div class="rodape tamanho margin delay animate to-bottom">
       Criado com muito <img src="img/love.svg" width="20" alt=""> para os bichinhos
     </div>
   </footer>
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=1815959495328152";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <script src="js/scroll-animate.js" />
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=1815959495328152";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 
 </html>

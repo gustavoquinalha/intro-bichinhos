@@ -15,6 +15,7 @@ a {
 .tamanho {
   width: 1100px;
   max-width: 90%;
+  overflow: hidden;
 }
 .margin {
   margin: 0 auto
