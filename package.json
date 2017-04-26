@@ -1,0 +1,24 @@
+{
+  "name": "intro-bichinhos",
+  "version": "1.0.0",
+  "description": "#  [facebook](https://www.facebook.com/adotebichinhos/?fref=ts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavoquinalha/intro-bichinhos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavoquinalha/intro-bichinhos/issues"
+  },
+  "homepage": "https://github.com/gustavoquinalha/intro-bichinhos#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.3.0"
+  }
+}
