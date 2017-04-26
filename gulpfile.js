@@ -5,7 +5,18 @@ var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var minify = require('gulp-minify-css');
+var localScreenshots = require('gulp-local-screenshots');
 var browserSync = require('browser-sync').create();
+
+
+gulp.task('screens', function () {
+  gulp.src('index.html')
+  .pipe(localScreenshots({
+    width: ['380']
+   }))
+  .pipe(gulp.dest('./prints/'));
+});
+
 
 // BROWSER-SYNC
 gulp.task('bb', function() {
