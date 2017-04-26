@@ -19,6 +19,7 @@
   "homepage": "https://github.com/gustavoquinalha/intro-bichinhos#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-imagemin": "^2.3.0"
+    "gulp-imagemin": "^2.3.0",
+    "gulp-uncss": "^1.0.6"
   }
 }
